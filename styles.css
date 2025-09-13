@@ -1,0 +1,67 @@
+body {
+    font-family: 'Gotham', Arial, sans-serif;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+    color: #ffffff;
+
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #002e18, #003626);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#carbon-footprint-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(88, 88, 88, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    input {
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #28a745;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+
+        font-weight: bold;
+
+        &:hover {
+            background-color: #218838;
+        }
+    }
+}
+
+.spinner {
+    display: block;
+    margin: 20px auto;
+    border: 8px solid #218838;
+    border-top: 8px solid #28a745;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
