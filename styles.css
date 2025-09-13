@@ -53,7 +53,7 @@ body {
 .spinner {
     display: block;
     margin: 20px auto;
-    border: 8px solid #218838;
+    border: 8px solid #21883700;
     border-top: 8px solid #28a745;
     border-radius: 50%;
     width: 50px;
